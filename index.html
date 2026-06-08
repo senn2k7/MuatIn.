@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MuatIn – UX Case Study</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ 
+  <!-- ═══════════════════ NAVBAR ═══════════════════ -->
+  <header id="navbar">
+    <nav class="nav-container">
+ 
+      <!-- ✅ LOGO: ganti file logo.png di folder yang sama -->
+      <a href="#hero" class="nav-logo">
+        <img src="/img/logo1.png" alt="MuatIn" class="nav-logo-img" />
+      </a>
+ 
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#emphatize" class="nav-item" data-section="emphatize">
+          <span class="nav-num">01</span>Emphatize
+        </a></li>
+        <li><a href="#define" class="nav-item" data-section="define">
+          <span class="nav-num">02</span>Define
+        </a></li>
+        <li><a href="#ideate" class="nav-item" data-section="ideate">
+          <span class="nav-num">03</span>Ideate
+        </a></li>
+        <li><a href="#prototype" class="nav-item" data-section="prototype">
+          <span class="nav-num">04</span>Prototype
+        </a></li>
+        <li><a href="#test" class="nav-item" data-section="test">
+          <span class="nav-num">05</span>Test
+        </a></li>
+      </ul>
+ 
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+ 
+  <!-- ═══════════════════ HERO ═══════════════════ -->
+  <section id="hero" class="hero-section">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">📦 UX Case Study · Logistik & Pengiriman</div>
+      <h1 class="hero-title">
+        Merancang Pengalaman<br/>
+        <span class="hero-highlight">Pengantaran Barang</span><br/>
+        yang Mudah & Terpercaya
+      </h1>
+      <p class="hero-desc">
+        MuatIn adalah aplikasi layanan pengiriman barang yang dirancang dengan pendekatan
+        <strong>Human-Centered Design</strong> — memudahkan pengguna memesan, melacak, dan
+        menerima paket dengan pengalaman yang mulus dari ujung ke ujung.
+      </p>
+      <div class="hero-cta">
+        <a href="#emphatize" class="btn-primary">Lihat Case Study</a>
+        <a href="https://figma.com" target="_blank" class="btn-outline">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          Buka di Figma
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">3</span><span class="stat-label">Pengguna Diwawancara</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">5</span><span class="stat-label">Tahap Design Process</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">3</span><span class="stat-label">Iterasi Prototype</span></div>
+      </div>
+    </div>
+ 
+    <!-- ✅ HERO VISUAL: menggunakan gambar Homepage.png -->
+    <div class="hero-visual">
+      <div class="phone-mockup">
+        <div class="phone-screen">
+          <img src="/img/Homepage.png" alt="MuatIn App Screenshot" class="app-screenshot" />
+        </div>
+      </div>
+      <div class="floating-card fc-1">
+        <span>⚡</span> Real-time tracking
+      </div>
+      <div class="floating-card fc-2">
+        <span>🛡️</span> Asuransi Paket
+      </div>
+      <div class="floating-card fc-3">
+        <span>⭐</span> 4.9 Rating
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ═══════════════════ PROCESS OVERVIEW ═══════════════════ -->
+  <section class="process-overview">
+    <div class="container">
+      <p class="section-overline">Design Process</p>
+      <h2 class="section-title">Design Thinking Framework</h2>
+      <div class="process-steps">
+        <a href="#emphatize" class="process-step ps-1">
+          <div class="ps-icon">🧠</div>
+          <div class="ps-num">01</div>
+          <div class="ps-name">Emphatize</div>
+          <div class="ps-desc">Memahami pengguna secara mendalam</div>
+          <div class="ps-arrow">→</div>
+        </a>
+        <a href="#define" class="process-step ps-2">
+          <div class="ps-icon">🎯</div>
+          <div class="ps-num">02</div>
+          <div class="ps-name">Define</div>
+          <div class="ps-desc">Mendefinisikan masalah inti</div>
+          <div class="ps-arrow">→</div>
+        </a>
+        <a href="#ideate" class="process-step ps-3">
+          <div class="ps-icon">💡</div>
+          <div class="ps-num">03</div>
+          <div class="ps-name">Ideate</div>
+          <div class="ps-desc">Mengeksplorasi solusi kreatif</div>
+          <div class="ps-arrow">→</div>
+        </a>
+        <a href="#prototype" class="process-step ps-4">
+          <div class="ps-icon">🔧</div>
+          <div class="ps-num">04</div>
+          <div class="ps-name">Prototype</div>
+          <div class="ps-desc">Membangun solusi nyata</div>
+          <div class="ps-arrow">→</div>
+        </a>
+        <a href="#test" class="process-step ps-5">
+          <div class="ps-icon">✅</div>
+          <div class="ps-num">05</div>
+          <div class="ps-name">Test</div>
+          <div class="ps-desc">Validasi dengan pengguna</div>
+          <div class="ps-arrow"></div>
+        </a>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ═══════════════════ EMPHATIZE ═══════════════════ -->
+  <section id="emphatize" class="case-section emphatize-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge badge-blue">01 · Emphatize</span>
+        <h2 class="section-title">Memahami Pengguna</h2>
+        <p class="section-subtitle">Riset mendalam melalui wawancara, observasi, dan survei untuk memahami pain point pengguna dalam proses pengiriman barang.</p>
+      </div>
+ 
+      <div class="two-col">
+        <div class="col-content">
+          <h3 class="col-title">Metode Riset</h3>
+          <div class="method-list">
+            <div class="method-item">
+              <div class="method-icon">🎙️</div>
+              <div>
+                <strong>User Interview</strong>
+                <p>3 responden dari segmen pengirim dan penerima barang</p>
+              </div>
+            </div>
+            <div class="method-item">
+              <div class="method-icon">👁️</div>
+              <div>
+                <strong>Contextual Inquiry</strong>
+                <p>Observasi langsung proses pengiriman di lapangan</p>
+              </div>
+            </div>
+            <!-- <div class="method-item">
+              <div class="method-icon">📊</div>
+              <div>
+                <strong>Online Survey</strong>
+                <p>87 responden untuk validasi kuantitatif</p>
+              </div>
+            </div> -->
+            <div class="method-item">
+              <div class="method-icon">🔍</div>
+              <div>
+                <strong>Competitive Analysis</strong>
+                <p>Analisis 5 aplikasi logistik yang ada di pasar</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-visual">
+          <div class="empathy-map">
+            <div class="em-title">Empathy Map</div>
+            <div class="em-grid">
+              <div class="em-quad says">
+                <div class="em-q-title">💬 Says</div>
+                <p>"Susah tau posisi paket ada di mana"</p>
+                <p>"Sering salah antar alamat"</p>
+              </div>
+              <div class="em-quad thinks">
+                <div class="em-q-title">💭 Thinks</div>
+                <p>"Kapan sampe ya?"</p>
+                <p>"Aman nggak barangnya?"</p>
+              </div>
+              <div class="em-quad does">
+                <div class="em-q-title">🤲 Does</div>
+                <p>Chat kurir berkali-kali</p>
+                <p>Screenshot bukti pengiriman</p>
+              </div>
+              <div class="em-quad feels">
+                <div class="em-q-title">❤️ Feels</div>
+                <p>Cemas dan tidak pasti</p>
+                <p>Frustrasi dengan tracking</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="insight-cards">
+        <h3 class="sub-section-title">Key Insights</h3>
+        <div class="card-grid">
+          <div class="insight-card ic-1">
+            <div class="ic-pct">78%</div>
+            <p>pengguna kesulitan melacak paket secara real-time</p>
+          </div>
+          <div class="insight-card ic-2">
+            <div class="ic-pct">65%</div>
+            <p>pernah menerima paket yang salah atau terlambat</p>
+          </div>
+          <div class="insight-card ic-3">
+            <div class="ic-pct">91%</div>
+            <p>menginginkan notifikasi otomatis status pengiriman</p>
+          </div>
+          <div class="insight-card ic-4">
+            <div class="ic-pct">83%</div>
+            <p>ingin proses klaim kerusakan yang lebih mudah</p>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="figma-cta">
+        <a href="https://figma.com" target="_blank" class="btn-figma">
+          <svg width="20" height="20" viewBox="0 0 38 57" fill="none"><path d="M19 28.5a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0z" fill="#1ABCFE"/><path d="M0 47.5A9.5 9.5 0 0 1 9.5 38H19v9.5a9.5 9.5 0 1 1-19 0z" fill="#0ACF83"/><path d="M19 0v19h9.5a9.5 9.5 0 1 0 0-19H19z" fill="#FF7262"/><path d="M0 9.5A9.5 9.5 0 0 0 9.5 19H19V0H9.5A9.5 9.5 0 0 0 0 9.5z" fill="#F24E1E"/><path d="M0 28.5A9.5 9.5 0 0 0 9.5 38H19V19H9.5A9.5 9.5 0 0 0 0 28.5z" fill="#A259FF"/></svg>
+          Lihat Detail di Figma – Emphatize
+        </a>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ═══════════════════ DEFINE ═══════════════════ -->
+  <section id="define" class="case-section define-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge badge-orange">02 · Define</span>
+        <h2 class="section-title">Mendefinisikan Masalah</h2>
+        <p class="section-subtitle">Mengolah data riset menjadi pernyataan masalah yang jelas dan persona pengguna yang representatif.</p>
+      </div>
+ 
+      <div class="persona-cards">
+        <h3 class="sub-section-title">User Persona</h3>
+        <div class="persona-grid">
+          <div class="persona-card">
+            <div class="persona-avatar">👩‍💼</div>
+            <div class="persona-info">
+              <h4>Virizia Aqilah Nifizalza </h4>
+              <p class="persona-role">Mahasiswa · 19 tahun</p>
+              <div class="persona-tags">
+                <span>Aktif</span><span>Sibuk</span>
+              </div>
+              <div class="persona-details">
+                <div class="pd-item"><strong>Goal:</strong> Kirim paket dengan efisien</div>
+                <div class="pd-item"><strong>Pain:</strong> Tidak bisa tracking semua paket sekaligus</div>
+                <div class="pd-item"><strong>Need:</strong> Transportasi yang cepat dan mudah</div>
+              </div>
+            </div>
+          </div>
+          <div class="persona-card">
+            <div class="persona-avatar">👨‍🔧</div>
+            <div class="persona-info">
+              <h4>Hanif Setiawan</h4>
+              <p class="persona-role">Pekerja · 37 tahun</p>
+              <div class="persona-tags">
+                <span>Pembeli</span><span>Mobile-first</span>
+              </div>
+              <div class="persona-details">
+                <div class="pd-item"><strong>Goal:</strong> Terima paket tepat waktu & kondisi baik</div>
+                <div class="pd-item"><strong>Pain:</strong> Jarak rumah ke kantor sangat jauh (30 km). Kondisi fisik lelah/sakit menghambat mobilitas mandiri.</div>
+                <div class="pd-item"><strong>Need:</strong> Pengiriman barang yang praktis tanpa harus keluar rumah</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="persona-card">
+            <div class="persona-avatar">👨‍🔧</div>
+            <div class="persona-info">
+              <h4>Dimas Pratama</h4>
+              <p class="persona-role">Karyawan Swasta · 32 tahun</p>
+              <div class="persona-tags">
+                <span>Pembeli</span><span>Mobile-first</span><span>Kritis</span>
+              </div>
+              <div class="persona-details">
+                <div class="pd-item"><strong>Goal:</strong> Terima paket tepat waktu & kondisi baik</div>
+                <div class="pd-item"><strong>Pain:</strong> Sering tidak di rumah saat paket datang</div>
+                <div class="pd-item"><strong>Need:</strong> Penjadwalan ulang pengiriman yang fleksibel</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+ 
+      <div class="hmw-section">
+        <h3 class="sub-section-title">How Might We (HMW)</h3>
+        <div class="hmw-list">
+          <div class="hmw-item">
+            <span class="hmw-icon">🤔</span>
+            <p>Bagaimana kita bisa membuat <strong>proses pemesanan layanan pengiriman barang</strong> terasa semudah dan secepat mungkin bagi pengguna?</p>
+          </div>
+          <div class="hmw-item">
+            <span class="hmw-icon">🤔</span>
+            <p>Bagaimana kita bisa membantu pengguna <strong>memenuhi kebutuhan pengiriman  barang</strong> sehari-hari dalam satu kota/kabupaten kapan pun mereka butuhkan,  termasuk tengah malam?</p>
+          </div>
+          <!-- <div class="hmw-item">
+            <span class="hmw-icon">🤔</span>
+            <p>Bagaimana kita bisa memastikan <strong>keamanan dan integritas paket</strong> selama perjalanan?</p>
+          </div> -->
+        </div>
+      </div>
+ 
+      <div class="figma-cta">
+        <a href="https://figma.com" target="_blank" class="btn-figma">
+          <svg width="20" height="20" viewBox="0 0 38 57" fill="none"><path d="M19 28.5a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0z" fill="#1ABCFE"/><path d="M0 47.5A9.5 9.5 0 0 1 9.5 38H19v9.5a9.5 9.5 0 1 1-19 0z" fill="#0ACF83"/><path d="M19 0v19h9.5a9.5 9.5 0 1 0 0-19H19z" fill="#FF7262"/><path d="M0 9.5A9.5 9.5 0 0 0 9.5 19H19V0H9.5A9.5 9.5 0 0 0 0 9.5z" fill="#F24E1E"/><path d="M0 28.5A9.5 9.5 0 0 0 9.5 38H19V19H9.5A9.5 9.5 0 0 0 0 28.5z" fill="#A259FF"/></svg>
+          Lihat Detail di Figma – Define
+        </a>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ═══════════════════ IDEATE ═══════════════════ -->
+  <section id="ideate" class="case-section ideate-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge badge-yellow">03 · Ideate</span>
+        <h2 class="section-title">Eksplorasi Solusi</h2>
+        <p class="section-subtitle">Menghasilkan ide-ide kreatif melalui sesi brainstorming, crazy 8s, dan penentuan solusi prioritas.</p>
+      </div>
+ 
+      <div class="ideate-grid">
+        <div class="idea-card">
+          <div class="idea-icon">🗺️</div>
+          <h4>Live GPS Tracking</h4>
+          <p>Peta interaktif real-time menampilkan posisi kurir dengan estimasi waktu tiba yang akurat</p>
+          <div class="idea-vote">⭐⭐⭐⭐⭐ Prioritas Tinggi</div>
+        </div>
+        <div class="idea-card featured">
+          <div class="idea-badge">🏆 Top Idea</div>
+          <div class="idea-icon">🔔</div>
+          <h4>Smart Notification System</h4>
+          <p>Push notifikasi cerdas berdasarkan preferensi pengguna — kapan, bagaimana, dan update apa yang ingin diterima</p>
+          <div class="idea-vote">⭐⭐⭐⭐⭐ Dipilih Tim</div>
+        </div>
+        <div class="idea-card">
+          <div class="idea-icon">📅</div>
+          <h4>Flexible Scheduling</h4>
+          <p>Pengguna bisa reschedule atau redirect pengiriman kapan saja sebelum paket tiba</p>
+          <div class="idea-vote">⭐⭐⭐⭐ Prioritas Tinggi</div>
+        </div>
+        <div class="idea-card">
+          <div class="idea-icon">📷</div>
+          <h4>Photo Proof of Delivery</h4>
+          <p>Kurir wajib foto paket saat pickup dan delivery sebagai bukti kondisi barang</p>
+          <div class="idea-vote">⭐⭐⭐⭐ Penting</div>
+        </div>
+        <div class="idea-card">
+          <div class="idea-icon">📦</div>
+          <h4>Button Shortcut</h4>
+          <p>Sediakan shortcut "Kirim Sekarang" di halaman utama agar pengguna langsung bisa mulai tanpa navigasi panjang</p>
+          <div class="idea-vote">⭐⭐⭐ Fase 2</div>
+        </div>
+        <div class="idea-card">
+          <div class="idea-icon">🛡️</div>
+          <h4>Instant Insurance Claim</h4>
+          <p>Proses klaim kerusakan/kehilangan yang dapat diselesaikan dalam aplikasi dalam waktu 24 jam</p>
+          <div class="idea-vote">⭐⭐⭐⭐ Diferensiator</div>
+        </div>
+      </div>
+ 
+      <div class="figma-cta">
+        <a href="https://figma.com" target="_blank" class="btn-figma">
+          <svg width="20" height="20" viewBox="0 0 38 57" fill="none"><path d="M19 28.5a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0z" fill="#1ABCFE"/><path d="M0 47.5A9.5 9.5 0 0 1 9.5 38H19v9.5a9.5 9.5 0 1 1-19 0z" fill="#0ACF83"/><path d="M19 0v19h9.5a9.5 9.5 0 1 0 0-19H19z" fill="#FF7262"/><path d="M0 9.5A9.5 9.5 0 0 0 9.5 19H19V0H9.5A9.5 9.5 0 0 0 0 9.5z" fill="#F24E1E"/><path d="M0 28.5A9.5 9.5 0 0 0 9.5 38H19V19H9.5A9.5 9.5 0 0 0 0 28.5z" fill="#A259FF"/></svg>
+          Lihat Detail di Figma – Ideate
+        </a>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ═══════════════════ PROTOTYPE ═══════════════════ -->
+  <section id="prototype" class="case-section prototype-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge badge-teal">04 · Prototype</span>
+        <h2 class="section-title">Membangun Solusi</h2>
+        <p class="section-subtitle">Dari wireframe lo-fi hingga prototype hi-fi interaktif yang siap diuji pengguna.</p>
+      </div>
+ 
+      <div class="prototype-flow">
+        <div class="proto-stage">
+          <div class="proto-icon">✏️</div>
+          <h4>Sketsa & Wireframe</h4>
+          <p>Ideasi visual cepat dengan pen & paper, dilanjutkan wireframe digital di Figma</p>
+          <span class="proto-tool">Pen & Paper · Figma</span>
+        </div>
+        <div class="proto-arrow">→</div>
+        <div class="proto-stage">
+          <div class="proto-icon">🎨</div>
+          <h4>UI Design System</h4>
+          <p>Komponen, color palette, typography, dan spacing yang konsisten</p>
+          <span class="proto-tool">Figma · Auto Layout</span>
+        </div>
+        <div class="proto-arrow">→</div>
+        <div class="proto-stage active">
+          <div class="proto-icon">⚡</div>
+          <h4>Interactive Prototype</h4>
+          <p>Prototype hi-fi yang fully interaktif dengan semua user flow utama</p>
+          <span class="proto-tool">Figma Prototype</span>
+        </div>
+      </div>
+ 
+      <div class="screens-showcase">
+        <h3 class="sub-section-title">Key Screens</h3>
+        <div class="screens-grid">
+          <div class="screen-card">
+            <div class="screen-preview sp-1">
+              <div class="sp-inner">
+                <div class="sp-topbar">🏠 Home</div>
+                <div class="sp-track-mini">
+                  <div class="sp-badge">🚚 Dalam Perjalanan</div>
+                  <div class="sp-bar"><div class="sp-fill"></div></div>
+                </div>
+                <div class="sp-quick">
+                  <div class="sp-q">📦 Kirim</div>
+                  <div class="sp-q">🔍 Lacak</div>
+                  <div class="sp-q">📋 Riwayat</div>
+                </div>
+              </div>
+            </div>
+            <p>Home Dashboard</p>
+          </div>
+          <div class="screen-card">
+            <div class="screen-preview sp-2">
+              <div class="sp-inner">
+                <div class="sp-topbar">📍 Tracking</div>
+                <div class="sp-map">
+                  <div class="sp-map-bg">🗺️</div>
+                  <div class="sp-pin">📍</div>
+                </div>
+                <div class="sp-eta">ETA: 35 menit</div>
+              </div>
+            </div>
+            <p>Real-time Tracking</p>
+          </div>
+          <div class="screen-card">
+            <div class="screen-preview sp-3">
+              <div class="sp-inner">
+                <div class="sp-topbar">➕ Kirim Paket</div>
+                <div class="sp-form">
+                  <div class="sp-input">📍 Dari mana?</div>
+                  <div class="sp-input">🏠 Ke mana?</div>
+                  <div class="sp-input">📦 Jenis paket</div>
+                  <div class="sp-btn">Cek Ongkir →</div>
+                </div>
+              </div>
+            </div>
+            <p>Send Package</p>
+          </div>
+          <div class="screen-card">
+            <div class="screen-preview sp-4">
+              <div class="sp-inner">
+                <div class="sp-topbar">🔔 Notifikasi</div>
+                <div class="sp-notif-list">
+                  <div class="sp-notif active-notif">📦 Paket diambil kurir</div>
+                  <div class="sp-notif">🚚 Paket dalam perjalanan</div>
+                  <div class="sp-notif">✅ Paket tiba di kota tujuan</div>
+                </div>
+              </div>
+            </div>
+            <p>Notification Center</p>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="figma-cta">
+        <a href="https://figma.com" target="_blank" class="btn-figma btn-figma-large">
+          <svg width="20" height="20" viewBox="0 0 38 57" fill="none"><path d="M19 28.5a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0z" fill="#1ABCFE"/><path d="M0 47.5A9.5 9.5 0 0 1 9.5 38H19v9.5a9.5 9.5 0 1 1-19 0z" fill="#0ACF83"/><path d="M19 0v19h9.5a9.5 9.5 0 1 0 0-19H19z" fill="#FF7262"/><path d="M0 9.5A9.5 9.5 0 0 0 9.5 19H19V0H9.5A9.5 9.5 0 0 0 0 9.5z" fill="#F24E1E"/><path d="M0 28.5A9.5 9.5 0 0 0 9.5 38H19V19H9.5A9.5 9.5 0 0 0 0 28.5z" fill="#A259FF"/></svg>
+          Buka Interactive Prototype di Figma
+          <span class="btn-arrow">↗</span>
+        </a>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ═══════════════════ TEST ═══════════════════ -->
+  <section id="test" class="case-section test-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge badge-green">05 · Test</span>
+        <h2 class="section-title">Validasi dengan Pengguna</h2>
+        <p class="section-subtitle">Usability testing dengan pengguna nyata untuk mengidentifikasi area perbaikan dan memvalidasi solusi.</p>
+      </div>
+ 
+      <div class="test-results">
+        <div class="test-metric">
+          <div class="tm-circle" data-value="88">
+            <svg viewBox="0 0 100 100">
+              <circle cx="50" cy="50" r="42" fill="none" stroke="#e8f4fd" stroke-width="8"/>
+              <circle cx="50" cy="50" r="42" fill="none" stroke="#FFD233" stroke-width="8"
+                stroke-dasharray="263.9" stroke-dashoffset="31.7" stroke-linecap="round"
+                transform="rotate(-90 50 50)" class="progress-circle"/>
+            </svg>
+            <span>88%</span>
+          </div>
+          <p>Task Completion Rate</p>
+        </div>
+        <div class="test-metric">
+          <div class="tm-circle" data-value="4.7">
+            <svg viewBox="0 0 100 100">
+              <circle cx="50" cy="50" r="42" fill="none" stroke="#e8f4fd" stroke-width="8"/>
+              <circle cx="50" cy="50" r="42" fill="none" stroke="#00C9A7" stroke-width="8"
+                stroke-dasharray="263.9" stroke-dashoffset="21.1" stroke-linecap="round"
+                transform="rotate(-90 50 50)" class="progress-circle"/>
+            </svg>
+            <span>4.7</span>
+          </div>
+          <p>SUS Score (avg 5.0)</p>
+        </div>
+        <div class="test-metric">
+          <div class="tm-circle" data-value="92">
+            <svg viewBox="0 0 100 100">
+              <circle cx="50" cy="50" r="42" fill="none" stroke="#e8f4fd" stroke-width="8"/>
+              <circle cx="50" cy="50" r="42" fill="none" stroke="#FF6B6B" stroke-width="8"
+                stroke-dasharray="263.9" stroke-dashoffset="21.1" stroke-linecap="round"
+                transform="rotate(-90 50 50)" class="progress-circle"/>
+            </svg>
+            <span>92%</span>
+          </div>
+          <p>User Satisfaction</p>
+        </div>
+        <div class="test-metric">
+          <div class="tm-circle" data-value="75">
+            <svg viewBox="0 0 100 100">
+              <circle cx="50" cy="50" r="42" fill="none" stroke="#e8f4fd" stroke-width="8"/>
+              <circle cx="50" cy="50" r="42" fill="none" stroke="#A78BFA" stroke-width="8"
+                stroke-dasharray="263.9" stroke-dashoffset="66" stroke-linecap="round"
+                transform="rotate(-90 50 50)" class="progress-circle"/>
+            </svg>
+            <span>75</span>
+          </div>
+          <p>NPS Score</p>
+        </div>
+      </div>
+ 
+      <div class="test-findings">
+        <div class="findings-col">
+          <h3 class="findings-title positive">✅ Yang Berhasil</h3>
+          <ul class="findings-list">
+            <li>Alur tracking paket dinilai intuitif oleh 9/10 pengguna</li>
+            <li>Notifikasi real-time sangat diapresiasi oleh semua tester</li>
+            <li>Tampilan home dashboard mudah dipahami sejak pertama kali dibuka</li>
+            <li>Proses booking pengiriman selesai rata-rata dalam 2 menit 15 detik</li>
+          </ul>
+        </div>
+        <div class="findings-col">
+          <h3 class="findings-title negative">⚠️ Area Perbaikan</h3>
+          <ul class="findings-list">
+            <li>Icon menu "Klaim" kurang familiar — perlu label teks yang lebih jelas</li>
+            <li>Filter riwayat pengiriman perlu ditambahkan opsi pencarian</li>
+            <li>Konfirmasi alamat tujuan butuh step visual yang lebih eksplisit</li>
+            <li>Mode dark perlu dipertimbangkan untuk kenyamanan penggunaan malam</li>
+          </ul>
+        </div>
+      </div>
+ 
+      <div class="figma-cta">
+        <a href="https://figma.com" target="_blank" class="btn-figma">
+          <svg width="20" height="20" viewBox="0 0 38 57" fill="none"><path d="M19 28.5a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0z" fill="#1ABCFE"/><path d="M0 47.5A9.5 9.5 0 0 1 9.5 38H19v9.5a9.5 9.5 0 1 1-19 0z" fill="#0ACF83"/><path d="M19 0v19h9.5a9.5 9.5 0 1 0 0-19H19z" fill="#FF7262"/><path d="M0 9.5A9.5 9.5 0 0 0 9.5 19H19V0H9.5A9.5 9.5 0 0 0 0 9.5z" fill="#F24E1E"/><path d="M0 28.5A9.5 9.5 0 0 0 9.5 38H19V19H9.5A9.5 9.5 0 0 0 0 28.5z" fill="#A259FF"/></svg>
+          Lihat Usability Test Report di Figma
+        </a>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ═══════════════════ FOOTER ═══════════════════ -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <!-- ✅ FOOTER LOGO: menggunakan logo.png -->
+          <div class="footer-logo">
+            <img src="/img/logo2.png" alt="MuatIn" class="footer-logo-img" />
+          </div>
+          <p class="footer-tagline">Menghubungkan pengirim dan penerima<br/>dengan pengalaman yang seamless.</p>
+          <div class="footer-socials">
+            <a href="https://github.com/senn2k7" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="social-btn" 
+              aria-label="GitHub">
+
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 .5C5.648.5.5 5.648.5 12c0 5.084 3.292 9.387 7.863 10.91.575.106.787-.25.787-.556 0-.275-.012-1.188-.018-2.156-3.2.694-3.877-1.356-3.877-1.356-.525-1.337-1.281-1.694-1.281-1.694-1.05-.719.081-.706.081-.706 1.163.081 1.775 1.194 1.775 1.194 1.031 1.769 2.706 1.258 3.369.962.106-.75.406-1.256.737-1.544-2.556-.288-5.244-1.281-5.244-5.706 0-1.262.45-2.294 1.188-3.1-.119-.288-.519-1.45.112-3.025 0 0 .969-.312 3.175 1.181a10.98 10.98 0 0 1 5.781 0c2.206-1.493 3.175-1.181 3.175-1.181.631 1.575.231 2.737.112 3.025.737.806 1.188 1.838 1.188 3.1 0 4.438-2.694 5.412-5.256 5.694.419.362.787 1.069.787 2.156 0 1.556-.012 2.812-.012 3.194 0 .306.206.669.794.556C20.214 21.381 23.5 17.078 23.5 12 23.5 5.648 18.352.5 12 .5z"/>
+                </svg>
+
+            </a>
+            <a href="https://instagram.com/seinkurnia_" target="_blank" class="social-btn" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M7.75 2C4.574 2 2 4.574 2 7.75v8.5C2 19.426 4.574 22 7.75 22h8.5C19.426 22 22 19.426 22 16.25v-8.5C22 4.574 19.426 2 16.25 2h-8.5zm0 2h8.5A3.75 3.75 0 0 1 20 7.75v8.5A3.75 3.75 0 0 1 16.25 20h-8.5A3.75 3.75 0 0 1 4 16.25v-8.5A3.75 3.75 0 0 1 7.75 4zm8.75 1a1.25 1.25 0 1 0 0 2.5A1.25 1.25 0 0 0 16.5 5zM12 7a5 5 0 1 0 0 10a5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6a3 3 0 0 1 0-6z"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="LinkedIn">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+          </div>
+        </div>
+ 
+        <div class="footer-links-group">
+          <h5>Design Process</h5>
+          <ul>
+            <li><a href="#emphatize">Emphatize</a></li>
+            <li><a href="#define">Define</a></li>
+            <li><a href="#ideate">Ideate</a></li>
+            <li><a href="#prototype">Prototype</a></li>
+            <li><a href="#test">Test</a></li>
+          </ul>
+        </div>
+ 
+        <div class="footer-links-group">
+          <h5>Resources</h5>
+          <ul>
+            <li><a href="https://figma.com" target="_blank">Figma Prototype</a></li>
+            <li><a href="https://figma.com" target="_blank">Design System</a></li>
+            <li><a href="https://figma.com" target="_blank">Research Docs</a></li>
+            <li><a href="https://figma.com" target="_blank">Usability Report</a></li>
+          </ul>
+        </div>
+ 
+        <div class="footer-links-group">
+          <h5>Kontak</h5>
+          <ul>
+            <li><a href="#">huseinnn09@gmail.com</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Tentang Proyek</a></li>
+          </ul>
+          <div class="footer-badge-stack">
+            <span class="fb-tag">UX Design</span>
+            <span class="fb-tag">Mobile App</span>
+            <span class="fb-tag">Logistik</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2026 MuatIn · UX Case Study. Dibuat dengan ❤️ menggunakan Design Thinking.</p>
+        <!-- <p>Semua hak dilindungi undang-undang.</p> -->
+      </div>
+    </div>
+  </footer>
+ 
+  <!-- Scroll to top -->
+  <button id="scrollTop" class="scroll-top-btn" aria-label="Scroll to top">↑</button>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
