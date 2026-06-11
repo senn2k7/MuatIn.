@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MuatIn – UX Case Study</title>
+  <link rel="icon" type="image/png" href="img/logo3.png">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet" />
@@ -428,63 +429,59 @@
       <div class="screens-showcase">
         <h3 class="sub-section-title">Key Screens</h3>
         <div class="screens-grid">
+
+          <!-- ✅ SCREEN 1: ganti src dengan path gambar kamu, contoh: /img/screen-home.png -->
           <div class="screen-card">
-            <div class="screen-preview sp-1">
-              <div class="sp-inner">
-                <div class="sp-topbar"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Home</div>
-                <div class="sp-track-mini">
-                  <div class="sp-badge"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg> Dalam Perjalanan</div>
-                  <div class="sp-bar"><div class="sp-fill"></div></div>
-                </div>
-                <div class="sp-quick">
-                  <div class="sp-q"><svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 10V7a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 7v3"/><path d="M21 10l-9 5-9-5"/><polyline points="3 10 3 17 12 22 21 17 21 10"/><line x1="12" y1="22" x2="12" y2="17"/></svg> Kirim</div>
-                  <div class="sp-q"><svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg> Lacak</div>
-                  <div class="sp-q"><svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> Riwayat</div>
-                </div>
-              </div>
+            <div class="screen-img-wrap">
+              <img
+                src="/img/Homepage.png"
+                alt="Home Dashboard"
+                class="screen-img"
+                onerror="this.parentElement.classList.add('screen-img-placeholder')"
+              />
             </div>
             <p>Home Dashboard</p>
           </div>
+
+          <!-- ✅ SCREEN 2: ganti src dengan path gambar kamu, contoh: /img/screen-tracking.png -->
           <div class="screen-card">
-            <div class="screen-preview sp-2">
-              <div class="sp-inner">
-                <div class="sp-topbar"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Tracking</div>
-                <div class="sp-map">
-                  <div class="sp-map-bg"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(16,185,129,0.5)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg></div>
-                  <div class="sp-pin"><svg width="18" height="18" viewBox="0 0 24 24" fill="#EF4444" stroke="#EF4444" stroke-width="1"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3" fill="white"/></svg></div>
-                </div>
-                <div class="sp-eta">ETA: 35 menit</div>
-              </div>
+            <div class="screen-img-wrap">
+              <img
+                src="/img/lifetime.png"
+                alt="Real-time Tracking"
+                class="screen-img"
+                onerror="this.parentElement.classList.add('screen-img-placeholder')"
+              />
             </div>
             <p>Real-time Tracking</p>
           </div>
+
+          <!-- ✅ SCREEN 3: ganti src dengan path gambar kamu, contoh: /img/screen-send.png -->
           <div class="screen-card">
-            <div class="screen-preview sp-3">
-              <div class="sp-inner">
-                <div class="sp-topbar"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg> Kirim Paket</div>
-                <div class="sp-form">
-                  <div class="sp-input"><svg width="7" height="7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Dari mana?</div>
-                  <div class="sp-input"><svg width="7" height="7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Ke mana?</div>
-                  <div class="sp-input"><svg width="7" height="7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10V7a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 7v3"/><path d="M21 10l-9 5-9-5"/><polyline points="3 10 3 17 12 22 21 17 21 10"/></svg> Jenis paket</div>
-                  <div class="sp-btn">Cek Ongkir →</div>
-                </div>
-              </div>
+            <div class="screen-img-wrap">
+              <img
+                src="/img/sendpackgae.png"
+                alt="Send Package"
+                class="screen-img"
+                onerror="this.parentElement.classList.add('screen-img-placeholder')"
+              />
             </div>
             <p>Send Package</p>
           </div>
+
+          <!-- ✅ SCREEN 4: ganti src dengan path gambar kamu, contoh: /img/screen-notif.png -->
           <div class="screen-card">
-            <div class="screen-preview sp-4">
-              <div class="sp-inner">
-                <div class="sp-topbar"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg> Notifikasi</div>
-                <div class="sp-notif-list">
-                  <div class="sp-notif active-notif"><svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10V7a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 7v3"/><path d="M21 10l-9 5-9-5"/><polyline points="3 10 3 17 12 22 21 17 21 10"/></svg> Paket diambil kurir</div>
-                  <div class="sp-notif"><svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg> Paket dalam perjalanan</div>
-                  <div class="sp-notif"><svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Paket tiba di kota tujuan</div>
-                </div>
-              </div>
+            <div class="screen-img-wrap">
+              <img
+                src="/img/notifikasi.png"
+                alt="Notification Center"
+                class="screen-img"
+                onerror="this.parentElement.classList.add('screen-img-placeholder')"
+              />
             </div>
             <p>Notification Center</p>
           </div>
+
         </div>
       </div>
  
@@ -651,11 +648,88 @@
         </div>
       </div>
 
-      <div class="figma-cta">
+      <!-- <div class="figma-cta">
         <a href="https://figma.com" target="_blank" class="btn-figma">
           <svg width="20" height="20" viewBox="0 0 38 57" fill="none"><path d="M19 28.5a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0z" fill="#1ABCFE"/><path d="M0 47.5A9.5 9.5 0 0 1 9.5 38H19v9.5a9.5 9.5 0 1 1-19 0z" fill="#0ACF83"/><path d="M19 0v19h9.5a9.5 9.5 0 1 0 0-19H19z" fill="#FF7262"/><path d="M0 9.5A9.5 9.5 0 0 0 9.5 19H19V0H9.5A9.5 9.5 0 0 0 0 9.5z" fill="#F24E1E"/><path d="M0 28.5A9.5 9.5 0 0 0 9.5 38H19V19H9.5A9.5 9.5 0 0 0 0 28.5z" fill="#A259FF"/></svg>
           Lihat Usability Test Report di Figma
         </a>
+      </div> -->
+    </div>
+  </section>
+ 
+  <!-- ═══════════════════ CREATOR PROFILE ═══════════════════ -->
+  <section class="creator-section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-overline">Tim Pembuat</p>
+        <h2 class="section-title">Creator Profile</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="creator-grid">
+ 
+        <!-- Creator 1 -->
+        <div class="creator-card">
+          <div class="creator-avatar-wrap">
+            <img src="/img/guwa.jpeg" alt="Husein Kurnia Waluyo" class="creator-avatar" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+            <div class="creator-avatar-fallback">AA</div>
+          </div>
+          <h3 class="creator-name">Husein Kurnia Waluyo</h3>
+          <p class="creator-nim">253307046</p>
+          <div class="creator-socials">
+            <a href="https://linkedin.com" target="_blank" class="cs-btn cs-linkedin" aria-label="LinkedIn">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="https://instagram.com/seinkurnia_" target="_blank" class="cs-btn cs-instagram" aria-label="Instagram">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M7.75 2C4.574 2 2 4.574 2 7.75v8.5C2 19.426 4.574 22 7.75 22h8.5C19.426 22 22 19.426 22 16.25v-8.5C22 4.574 19.426 2 16.25 2h-8.5zm0 2h8.5A3.75 3.75 0 0 1 20 7.75v8.5A3.75 3.75 0 0 1 16.25 20h-8.5A3.75 3.75 0 0 1 4 16.25v-8.5A3.75 3.75 0 0 1 7.75 4zm8.75 1a1.25 1.25 0 1 0 0 2.5A1.25 1.25 0 0 0 16.5 5zM12 7a5 5 0 1 0 0 10a5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6a3 3 0 0 1 0-6z"/></svg>
+            </a>
+            <a href="https://github.com/senn2k7" target="_blank" class="cs-btn cs-github" aria-label="GitHub">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .5C5.648.5.5 5.648.5 12c0 5.084 3.292 9.387 7.863 10.91.575.106.787-.25.787-.556 0-.275-.012-1.188-.018-2.156-3.2.694-3.877-1.356-3.877-1.356-.525-1.337-1.281-1.694-1.281-1.694-1.05-.719.081-.706.081-.706 1.163.081 1.775 1.194 1.775 1.194 1.031 1.769 2.706 1.258 3.369.962.106-.75.406-1.256.737-1.544-2.556-.288-5.244-1.281-5.244-5.706 0-1.262.45-2.294 1.188-3.1-.119-.288-.519-1.45.112-3.025 0 0 .969-.312 3.175 1.181a10.98 10.98 0 0 1 5.781 0c2.206-1.493 3.175-1.181 3.175-1.181.631 1.575.231 2.737.112 3.025.737.806 1.188 1.838 1.188 3.1 0 4.438-2.694 5.412-5.256 5.694.419.362.787 1.069.787 2.156 0 1.556-.012 2.812-.012 3.194 0 .306.206.669.794.556C20.214 21.381 23.5 17.078 23.5 12 23.5 5.648 18.352.5 12 .5z"/></svg>
+            </a>
+          </div>
+        </div>
+ 
+        <!-- Creator 2
+        <div class="creator-card">
+          <div class="creator-avatar-wrap">
+            <img src="/img/avatar2.jpg" alt="Creator 2" class="creator-avatar" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+            <div class="creator-avatar-fallback">CR</div>
+          </div>
+          <h3 class="creator-name">Nama Creator 2</h3>
+          <p class="creator-nim">244311032</p>
+          <div class="creator-socials">
+            <a href="https://linkedin.com" target="_blank" class="cs-btn cs-linkedin" aria-label="LinkedIn">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="https://instagram.com" target="_blank" class="cs-btn cs-instagram" aria-label="Instagram">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M7.75 2C4.574 2 2 4.574 2 7.75v8.5C2 19.426 4.574 22 7.75 22h8.5C19.426 22 22 19.426 22 16.25v-8.5C22 4.574 19.426 2 16.25 2h-8.5zm0 2h8.5A3.75 3.75 0 0 1 20 7.75v8.5A3.75 3.75 0 0 1 16.25 20h-8.5A3.75 3.75 0 0 1 4 16.25v-8.5A3.75 3.75 0 0 1 7.75 4zm8.75 1a1.25 1.25 0 1 0 0 2.5A1.25 1.25 0 0 0 16.5 5zM12 7a5 5 0 1 0 0 10a5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6a3 3 0 0 1 0-6z"/></svg>
+            </a>
+            <a href="https://github.com" target="_blank" class="cs-btn cs-github" aria-label="GitHub">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .5C5.648.5.5 5.648.5 12c0 5.084 3.292 9.387 7.863 10.91.575.106.787-.25.787-.556 0-.275-.012-1.188-.018-2.156-3.2.694-3.877-1.356-3.877-1.356-.525-1.337-1.281-1.694-1.281-1.694-1.05-.719.081-.706.081-.706 1.163.081 1.775 1.194 1.775 1.194 1.031 1.769 2.706 1.258 3.369.962.106-.75.406-1.256.737-1.544-2.556-.288-5.244-1.281-5.244-5.706 0-1.262.45-2.294 1.188-3.1-.119-.288-.519-1.45.112-3.025 0 0 .969-.312 3.175 1.181a10.98 10.98 0 0 1 5.781 0c2.206-1.493 3.175-1.181 3.175-1.181.631 1.575.231 2.737.112 3.025.737.806 1.188 1.838 1.188 3.1 0 4.438-2.694 5.412-5.256 5.694.419.362.787 1.069.787 2.156 0 1.556-.012 2.812-.012 3.194 0 .306.206.669.794.556C20.214 21.381 23.5 17.078 23.5 12 23.5 5.648 18.352.5 12 .5z"/></svg>
+            </a>
+          </div>
+        </div> -->
+ 
+        <!-- Creator 3
+        <div class="creator-card">
+          <div class="creator-avatar-wrap">
+            <img src="/img/avatar3.jpg" alt="Creator 3" class="creator-avatar" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+            <div class="creator-avatar-fallback">CR</div>
+          </div>
+          <h3 class="creator-name">Nama Creator 3</h3>
+          <p class="creator-nim">244311033</p>
+          <div class="creator-socials">
+            <a href="https://linkedin.com" target="_blank" class="cs-btn cs-linkedin" aria-label="LinkedIn">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="https://instagram.com" target="_blank" class="cs-btn cs-instagram" aria-label="Instagram">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M7.75 2C4.574 2 2 4.574 2 7.75v8.5C2 19.426 4.574 22 7.75 22h8.5C19.426 22 22 19.426 22 16.25v-8.5C22 4.574 19.426 2 16.25 2h-8.5zm0 2h8.5A3.75 3.75 0 0 1 20 7.75v8.5A3.75 3.75 0 0 1 16.25 20h-8.5A3.75 3.75 0 0 1 4 16.25v-8.5A3.75 3.75 0 0 1 7.75 4zm8.75 1a1.25 1.25 0 1 0 0 2.5A1.25 1.25 0 0 0 16.5 5zM12 7a5 5 0 1 0 0 10a5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6a3 3 0 0 1 0-6z"/></svg>
+            </a>
+            <a href="https://github.com" target="_blank" class="cs-btn cs-github" aria-label="GitHub">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .5C5.648.5.5 5.648.5 12c0 5.084 3.292 9.387 7.863 10.91.575.106.787-.25.787-.556 0-.275-.012-1.188-.018-2.156-3.2.694-3.877-1.356-3.877-1.356-.525-1.337-1.281-1.694-1.281-1.694-1.05-.719.081-.706.081-.706 1.163.081 1.775 1.194 1.775 1.194 1.031 1.769 2.706 1.258 3.369.962.106-.75.406-1.256.737-1.544-2.556-.288-5.244-1.281-5.244-5.706 0-1.262.45-2.294 1.188-3.1-.119-.288-.519-1.45.112-3.025 0 0 .969-.312 3.175 1.181a10.98 10.98 0 0 1 5.781 0c2.206-1.493 3.175-1.181 3.175-1.181.631 1.575.231 2.737.112 3.025.737.806 1.188 1.838 1.188 3.1 0 4.438-2.694 5.412-5.256 5.694.419.362.787 1.069.787 2.156 0 1.556-.012 2.812-.012 3.194 0 .306.206.669.794.556C20.214 21.381 23.5 17.078 23.5 12 23.5 5.648 18.352.5 12 .5z"/></svg>
+            </a>
+          </div>
+        </div> -->
+ 
       </div>
     </div>
   </section>
