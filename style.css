@@ -1100,3 +1100,139 @@ img { max-width: 100%; display: block; }
 @media (max-width: 680px) {
   .test-overview { grid-template-columns: 1fr; }
 }
+/* ═══════════════════════════════════════
+   SVG ICON ADJUSTMENTS
+═══════════════════════════════════════ */
+ 
+/* Process step icons */
+.ps-icon svg {
+  display: block;
+  margin: 0 auto 8px;
+  stroke: rgba(255,255,255,0.85);
+}
+ 
+/* Method icons */
+.method-icon svg {
+  display: block;
+  flex-shrink: 0;
+  stroke: var(--secondary);
+}
+ 
+/* Empathy map quad title icons */
+.em-q-title svg {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.em-quad.says .em-q-title svg    { stroke: #1D4ED8; }
+.em-quad.thinks .em-q-title svg  { stroke: #D97706; }
+.em-quad.does .em-q-title svg    { stroke: #0F766E; }
+.em-quad.feels .em-q-title svg   { stroke: #BE185D; fill: #BE185D; }
+ 
+/* Persona avatars */
+.persona-avatar svg {
+  display: block;
+  stroke: var(--text-muted);
+}
+ 
+/* HMW icons */
+.hmw-icon svg {
+  display: block;
+  stroke: var(--secondary);
+}
+ 
+/* Idea icons */
+.idea-icon svg {
+  display: block;
+  margin-bottom: 12px;
+  stroke: var(--secondary);
+}
+.idea-card.featured .idea-icon svg { stroke: #92400E; }
+ 
+/* Idea badge star */
+.idea-badge svg {
+  display: inline-block;
+  vertical-align: middle;
+  fill: var(--primary);
+  stroke: none;
+}
+ 
+/* Star rating row */
+.star-row {
+  color: var(--accent);
+  font-size: .85rem;
+  letter-spacing: 1px;
+}
+ 
+/* Prototype stage icons */
+.proto-icon svg {
+  display: block;
+  margin: 0 auto 10px;
+  stroke: var(--secondary);
+}
+.proto-stage.active .proto-icon svg { stroke: var(--tertiary); }
+ 
+/* Screen preview mini icons */
+.sp-topbar svg,
+.sp-badge svg,
+.sp-q svg,
+.sp-input svg,
+.sp-notif svg {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 3px;
+  flex-shrink: 0;
+}
+.sp-pin {
+  position: absolute;
+  animation: pinBounce 1.5s ease-in-out infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sp-map-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+ 
+/* Tester avatar */
+.tester-avatar svg {
+  display: block;
+  stroke: var(--text-muted);
+}
+ 
+/* Task status SVG */
+.task-status svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+ 
+/* Findings title SVG */
+.findings-title svg {
+  vertical-align: middle;
+}
+ 
+/* Hero badge SVG */
+.hero-badge svg {
+  display: inline-block;
+  vertical-align: middle;
+  stroke: var(--secondary);
+}
+ 
+/* Floating card SVG icons */
+.floating-card span svg {
+  display: block;
+  stroke: var(--secondary);
+}
+.fc-1 span svg { stroke: #F59E0B; }
+.fc-2 span svg { stroke: var(--tertiary); }
+.fc-3 span svg { stroke: #F59E0B; fill: #F59E0B; }
+ 
+/* Scroll to top SVG */
+.scroll-top-btn svg {
+  display: block;
+  margin: auto;
+}
